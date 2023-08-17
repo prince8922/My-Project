@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication" >
+        <activity
+            android:name=".JsonProfileActivity"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".JsonSignupActivity"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".jsonLoginActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".SqliteCustomListViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SqliteListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SqliteDatabaseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BottamNavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bottam_nav" />
+        <activity
+            android:name=".NevigationDrawerActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD7-9Mq-lWP06zAeuzDB38EF1zADt63paY" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomListViewSecondActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DateTimeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityToFragmentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TabDemoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SpinnerListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_height="wrap_content"
+    android:layout_marginVertical="1dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent">
+
+
+    <TextView
+        android:id="@+id/custom_recyclerview_name"
+        style="@style/text_monospace_20"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="@color/gry"
+        android:padding="3dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginHorizontal="2dp"
+        android:id="@+id/custom_recyclerview_email"
+        style="@style/text_monospace_20"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="@color/gry"
+        android:padding="3dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/custom_recyclerview_contact"
+        style="@style/text_monospace_20"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@color/gry"
+        android:padding="3dp"
+        android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_marginLeft="2dp"
+            android:background="@color/teal_200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:id="@+id/custom_recyclerview_delete"
+                android:layout_width="20dp"
+                android:src="@drawable/delete"
+                android:layout_height="20dp"/>
+
+            <ImageView
+                android:gravity="center"
+                android:id="@+id/custom_recyclerview_edit"
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="300dp"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_marginHorizontal="10dp"-->
+<!--    android:layout_marginVertical="5dp"-->
+<!--    app:cardCornerRadius="5dp"-->
+<!--    app:cardElevation="5dp"-->
+<!--    android:layout_height="wrap_content">-->
+
+<!--    <FrameLayout-->
+<!--        android:padding="5dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <TextView-->
+<!--                    android:visibility="gone"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:padding="3dp"-->
+<!--                    android:text="Name:"-->
+<!--                    android:textStyle="bold"-->
+<!--                    style="@style/text_monospace_20"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--                <TextView-->
+<!--                    android:textColor="@color/design_default_color_on_primary"-->
+<!--                    android:id="@+id/custom_recyclerview_name"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@color/cardview_shadow_start_color"-->
+<!--                    android:padding="3dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    style="@style/text_monospace_20"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:layout_marginVertical="5dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+<!--                <TextView-->
+<!--                    android:visibility="gone"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:padding="3dp"-->
+<!--                    android:text="EmailId:"-->
+<!--                    android:textStyle="bold"-->
+<!--                    style="@style/text_monospace_20"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--                <TextView-->
+<!--                    android:textColor="@color/design_default_color_on_primary"-->
+<!--                    android:id="@+id/custom_recyclerview_email"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@color/cardview_shadow_start_color"-->
+<!--                    android:padding="3dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    style="@style/text_monospace_20"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_marginVertical="5dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <TextView-->
+<!--                    android:visibility="gone"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:padding="3dp"-->
+<!--                    android:text="ContctNo:"-->
+<!--                    android:textStyle="bold"-->
+<!--                    style="@style/text_monospace_20"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--                <TextView-->
+<!--                    android:textColor="@color/design_default_color_on_primary"-->
+<!--                    android:id="@+id/custom_recyclerview_contact"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@color/cardview_shadow_start_color"-->
+<!--                    android:padding="3dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    style="@style/text_monospace_20"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:backgroundTint="@color/white1"-->
+<!--            android:id="@+id/custom_recyclerview_delete"-->
+<!--            app:fabSize="mini"-->
+<!--            android:src="@drawable/delete"-->
+<!--            android:layout_gravity="end"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+
+
+<!--    </FrameLayout>-->
+
+
+
+<!--</androidx.cardview.widget.CardView>-->
